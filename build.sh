@@ -4,4 +4,4 @@ mkdir -p mods
 
 javac -d mods --module-source-path src `find src -type f`
 
-java --module-path mods -m amazon.primes/amazon.primes.PrimeService
+java --module-path mods -m amazon.client/amazon.client.Client

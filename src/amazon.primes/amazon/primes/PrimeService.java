@@ -8,7 +8,4 @@ public class PrimeService {
       return Arrays.asList(11, 13, 17, 19);
   }
 
-  public static void main(String args[]) {
-    System.out.println(new PrimeService().getPrimeNumbers(10,20));
-  }
 }
