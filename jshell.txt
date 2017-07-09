@@ -1,0 +1,5 @@
+/env -module-path mods:lib
+/env -add-module amazon.primes
+import amazon.primes.*;
+PrimeService p
+p = new PrimeService()
